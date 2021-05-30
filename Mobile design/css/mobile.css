@@ -1,0 +1,98 @@
+body {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 600;
+  font-size: 180%;
+  width: 250px;
+  position: relative;
+  top: 40px;
+  padding-left: 35px;
+  text-align: center;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  width: 260px;
+  text-align: center;
+  position: relative;
+  left: 30px;
+  top: 35px;
+}
+
+h6 {
+  color: grey;
+  position: relative;
+  top: 40px;
+  text-align: center;
+}
+
+table {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-align: center;
+  position: relative;
+  margin: 60px auto auto 110px;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+th {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-size: 140%;
+}
+
+td {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 80%;
+  letter-spacing: 1px;
+}
+span {
+  color: hsl(277, 64%, 61%);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+  width: 320px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
+  top: 90px;
+  left: 27px;
+}
+
+.backgroundcontainer {
+  background-color: hsl(233, 47%, 7%);
+  position: absolute;
+  width: 375px;
+  height: 900px;
+  top: 35px;
+  left: 40%;
+}
+
+.bottomcontainer {
+  background-color: hsl(244, 38%, 16%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  width: 320px;
+  height: 510px;
+  left: 27px;
+  top: 50px;
+}
+
+.transparent {
+  background-color: hsl(277, 64%, 61%);
+  opacity: 0.3;
+  width: 320px;
+  height: 218.5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: absolute;
+  bottom: 510px;
+}
